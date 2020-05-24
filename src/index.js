@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import BMICalculator from "./BMICalculator";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BMICalculator />
   </React.StrictMode>,
   document.getElementById('root')
 );
